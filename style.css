@@ -27,5 +27,49 @@ ul {
     display: flex;
     justify-content: space-around;
     gap: 16px;
+   
 }
 
+.top-cont {
+    height: 320px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topleft-cont {
+    width:400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topleft-cont .header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.topleft-cont button {
+    background-color: #3882F6;
+    width: 145px;
+    border-radius: 15px;
+}
+
+.topleft-cont button:hover {
+    background-color: hotpink;
+    width: 145px;
+    border-radius: 15px;
+}
+
+
+img {
+    color: #fff;
+    border: 2px solid #fff;
+    width: auto;
+    height: 300px;
+}
