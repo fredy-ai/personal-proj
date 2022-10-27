@@ -154,3 +154,52 @@ img {
     font-weight: bold;
 }
 
+/* quote content above */
+
+.signup-cont {
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-cont .box {
+    width: 900px;
+    height: 120px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.signup-cont .box button {
+    height: 30px;
+    width: 145px;
+    border: 10px, solid white;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #3882F6;
+}
+
+.signup-cont .box button:hover {
+    height: 30px;
+    width: 145px;
+    border: 10px, solid white;
+    border-radius: 15px;
+    color: #3882F6;
+    background-color: #fff;
+}
+
+.signup-cont .box .text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;  
+}
+
+/* call to action section above */
+
